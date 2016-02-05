@@ -53,7 +53,9 @@ The In-Memory cache is introduced in the server side, and it is very easy to ext
 No shared states means that we can deploy a lot of the services in different machines, and use the load balance to achieve better performance.
 
 ## Test Cases
+The start the unit test, please invoke: mvn test
 
+The following cases are involved:
 * Unit test for the fibonacci sequence compute related classes, both happy cases and edge cases are considered
 * Unit test at the restful service level, the following test cases are involved:
 ** Response Code Test for all the scenarios (400, 404, 200, 413, etc)
